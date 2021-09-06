@@ -25,7 +25,7 @@ async function GenerateNegativeNumbers() {
     const data = tf.tensor(dataJsonX, [882, 60])
     const labels = tf.tensor(dataJsonY, [882, 5])
     
-    const trainedNet = await model.fit(data, labels, {epochs: 1000})
+    const trainedNet = await model.fit(data, labels, {epochs: 200000})
     await model.save("file:////home/andrew/CODE/JS/MACHINE_LEARNING/LSTM/final_project/model")
     }
     GenerateNegativeNumbers()
