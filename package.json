@@ -1,0 +1,27 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "res": "babel-node res.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "@tensorflow/tfjs-node": "^3.9.0",
+    "axios": "^0.21.3",
+    "bottleneck": "^2.19.5",
+    "fast-csv": "^4.3.6",
+    "lodash": "^4.17.21",
+    "node-binance-api": "^0.13.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "wscat": "^5.0.0"
+  }
+}
